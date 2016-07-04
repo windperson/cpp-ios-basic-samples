@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-#import <GoogleSignIn.h>
+#import <GoogleSignIn/GIDSignIn.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate

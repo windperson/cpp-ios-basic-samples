@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1845419486E3366A67703C65 /* libPods-NativeGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F04A9C66488A554B38860 /* libPods-NativeGame.a */; };
 		282C531F18CFD0B6000A1C35 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 282C531E18CFD0B6000A1C35 /* libz.dylib */; };
 		283B3A1F196F07CB00727748 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283B3A1E196F07CB00727748 /* CoreData.framework */; };
 		283B3A21196F07D000727748 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283B3A20196F07D000727748 /* CoreTelephony.framework */; };
@@ -35,6 +36,7 @@
 		28FBAEC518CEEDC60052FDDC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FBAEC418CEEDC60052FDDC /* MediaPlayer.framework */; };
 		28FBAEC718CEEDDB0052FDDC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FBAEC618CEEDDB0052FDDC /* AssetsLibrary.framework */; };
 		28FBAEC918CEEDEC0052FDDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FBAEC818CEEDEC0052FDDC /* CoreLocation.framework */; };
+		78C13DBC15E2C5C80999220B /* libPods-NativeGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3803DD84A89A3590611900 /* libPods-NativeGameTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		248D0D693A0B66054BCBCDD1 /* Pods-NativeGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeGameTests/Pods-NativeGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		282C531E18CFD0B6000A1C35 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		283B3A1E196F07CB00727748 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		283B3A20196F07D000727748 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -82,7 +85,12 @@
 		28FBAEC418CEEDC60052FDDC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		28FBAEC618CEEDDB0052FDDC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		28FBAEC818CEEDEC0052FDDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		69620823978C6A06376EE632 /* Pods-NativeGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeGameTests/Pods-NativeGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		727F04A9C66488A554B38860 /* libPods-NativeGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969913A47EF21C0E3C441541 /* Pods-NativeGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeGame/Pods-NativeGame.release.xcconfig"; sourceTree = "<group>"; };
+		9D3803DD84A89A3590611900 /* libPods-NativeGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EAFCA01B7BBCAE0048D128 /* GPGSIds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPGSIds.h; sourceTree = "<group>"; };
+		BAE8A149AF798F9918CAFD03 /* Pods-NativeGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeGame/Pods-NativeGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				28E1301018C9203E001075F0 /* UIKit.framework in Frameworks */,
 				28E1301218C9203E001075F0 /* GLKit.framework in Frameworks */,
 				28E1300C18C9203E001075F0 /* Foundation.framework in Frameworks */,
+				1845419486E3366A67703C65 /* libPods-NativeGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +122,7 @@
 			files = (
 				28E1303818C9203E001075F0 /* UIKit.framework in Frameworks */,
 				28E1303718C9203E001075F0 /* Foundation.framework in Frameworks */,
+				78C13DBC15E2C5C80999220B /* libPods-NativeGameTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +136,7 @@
 				28E1303B18C9203E001075F0 /* NativeGameTests */,
 				28E1300A18C9203E001075F0 /* Frameworks */,
 				28E1300918C9203E001075F0 /* Products */,
+				F83B0070B0DDD76AB849930E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +166,8 @@
 				28E1300F18C9203E001075F0 /* UIKit.framework */,
 				28E1301118C9203E001075F0 /* GLKit.framework */,
 				28E1301318C9203E001075F0 /* OpenGLES.framework */,
+				727F04A9C66488A554B38860 /* libPods-NativeGame.a */,
+				9D3803DD84A89A3590611900 /* libPods-NativeGameTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,6 +221,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F83B0070B0DDD76AB849930E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE8A149AF798F9918CAFD03 /* Pods-NativeGame.debug.xcconfig */,
+				969913A47EF21C0E3C441541 /* Pods-NativeGame.release.xcconfig */,
+				69620823978C6A06376EE632 /* Pods-NativeGameTests.debug.xcconfig */,
+				248D0D693A0B66054BCBCDD1 /* Pods-NativeGameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E1304518C9203E001075F0 /* Build configuration list for PBXNativeTarget "NativeGame" */;
 			buildPhases = (
+				5F9A73E9BDC42D8FAE6655EB /* [CP] Check Pods Manifest.lock */,
 				28E1300418C9203E001075F0 /* Sources */,
 				28E1300518C9203E001075F0 /* Frameworks */,
 				28E1300618C9203E001075F0 /* Resources */,
+				E15FD6DCB1645FFE15642F88 /* [CP] Embed Pods Frameworks */,
+				B0CBC0D223A2A65EA3118594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E1304818C9203E001075F0 /* Build configuration list for PBXNativeTarget "NativeGameTests" */;
 			buildPhases = (
+				1D01D3D2102A6536597B6DDF /* [CP] Check Pods Manifest.lock */,
 				28E1303018C9203E001075F0 /* Sources */,
 				28E1303118C9203E001075F0 /* Frameworks */,
 				28E1303218C9203E001075F0 /* Resources */,
+				A90235F8BD91D8AD054B5EFC /* [CP] Embed Pods Frameworks */,
+				A9166C032A45D69FEE7F4953 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +285,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Google inc";
 				TargetAttributes = {
+					28E1300718C9203E001075F0 = {
+						DevelopmentTeam = 9KWN4997N5;
+					};
 					28E1303318C9203E001075F0 = {
 						TestTargetID = 28E1300718C9203E001075F0;
 					};
@@ -302,6 +335,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D01D3D2102A6536597B6DDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9A73E9BDC42D8FAE6655EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A90235F8BD91D8AD054B5EFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeGameTests/Pods-NativeGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9166C032A45D69FEE7F4953 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeGameTests/Pods-NativeGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CBC0D223A2A65EA3118594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeGame/Pods-NativeGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15FD6DCB1645FFE15642F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeGame/Pods-NativeGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28E1300418C9203E001075F0 /* Sources */ = {
@@ -387,7 +513,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-                ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -427,7 +553,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-                ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -445,36 +571,45 @@
 		};
 		28E1304618C9203E001075F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE8A149AF798F9918CAFD03 /* Pods-NativeGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeGame/NativeGame-Prefix.pch";
 				INFOPLIST_FILE = "NativeGame/NativeGame-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		28E1304718C9203E001075F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969913A47EF21C0E3C441541 /* Pods-NativeGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeGame/NativeGame-Prefix.pch";
 				INFOPLIST_FILE = "NativeGame/NativeGame-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		28E1304918C9203E001075F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69620823978C6A06376EE632 /* Pods-NativeGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeGame.app/NativeGame";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -497,6 +632,7 @@
 		};
 		28E1304A18C9203E001075F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248D0D693A0B66054BCBCDD1 /* Pods-NativeGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeGame.app/NativeGame";
 				FRAMEWORK_SEARCH_PATHS = (

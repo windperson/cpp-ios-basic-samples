@@ -18,7 +18,7 @@
 #import "GPGSIds.h"
 #import "ViewController.h"
 #import "StateManager.h"
-#include <GoogleSignIn.h>
+#import <GoogleSignIn/GIDSignIn.h>
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
